@@ -30,4 +30,6 @@ export class AppComponent {
       setTimeout(()=>resolve('Llego la data'), 500);
    });
 
+   fecha = new Date();
+
 }
