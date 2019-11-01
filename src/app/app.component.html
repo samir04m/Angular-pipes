@@ -93,6 +93,17 @@
             <td>capitalizado:false</td>
             <td>{{ nombre2 | capitalizado:false}}</td>
          </tr>
+         <tr>
+            <td>{{nombre}}</td>
+            <td>
+               mostrar:{{mostrar}}
+               <br>
+               <button (click)="mostrar = !mostrar" class="btn btn-outline-primary">
+                  Ver/ocultar
+               </button>
+            </td>
+            <td>{{ nombre | contrasena:mostrar}}</td>
+         </tr>
       </tbody>
    </table>
 

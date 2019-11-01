@@ -35,4 +35,5 @@ export class AppComponent {
 
    videoID = 'uhBHL3v4d3I';
 
+   mostrar:boolean = false;
 }
